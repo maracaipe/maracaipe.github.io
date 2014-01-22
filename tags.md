@@ -1,7 +1,8 @@
 ---
 layout: page
-title: Tag Index
-description: "An archive of posts sorted by tag."
+permalink: /tags/
+title: Tags
+description: "Um arquivo de posts ordenados por tags."
 ---
 
 <ul class="tag-box inline">
@@ -25,7 +26,7 @@ description: "An archive of posts sorted by tag."
 		{% for post in pages_list %}
 			{% if post.title != null %}
 			{% if group == null or group == post.group %}
-			<li><a href="{{ site.url }}{{ post.url }}">{{ post.title }}<span class="entry-date"><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %d, %Y" }}</time></span></a></li>
+			<li><a href="{{ site.url }}{{ post.url }}">{{ post.title }}<span class="entry-date"><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%d/%m/%Y" }}</time></span></a></li>
 			{% endif %}
 			{% endif %}
 		{% endfor %}

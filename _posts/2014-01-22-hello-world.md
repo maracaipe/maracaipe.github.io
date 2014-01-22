@@ -3,7 +3,7 @@ layout: post
 title: Hello World
 description: "Como tomei vergonha na cara e transformei meu blog num blog."	
 category: articles
-tags: [hello, world]
+tags: [hello world]
 image:
   feature: hello-world.jpg
   credit: Mbugua Mbarathi

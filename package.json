@@ -4,10 +4,10 @@
   "homepage": "http://carvalhoweb.com/",
   "repository": {
     "type": "git",
-    "url": "git://github.com/maracaipe/blog.git"
+    "url": "git://github.com/maracaipe/maracaipe.github.io.git"
   },
   "bugs": {
-    "url": "https://github.com/maracaipe/blog/issues"
+    "url": "https://github.com/maracaipe/maracaipe.github.io/issues"
   },
   "engines": {
     "node": ">= 0.10.0"
