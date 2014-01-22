@@ -1,8 +1,7 @@
 ---
 layout: post
 title: Hello World
-description: "Como tomei vergonha na cara e transformei meu blog num blog."
-modified: 2014-01-22
+description: "Como tomei vergonha na cara e transformei meu blog num blog."	
 category: articles
 tags: [hello, world]
 image:
@@ -15,7 +14,7 @@ share: true
 
 Olá.
 
-Depois de tanto tempo sem postar mais nada no meu blog, que até então era Wordpress, tomei vergonha na minha cara e tomei um tempo pra me dedicar na criação do meu.
+Depois de tanto tempo sem postar mais nada no meu blog, que até então era Wordpress, tomei vergonha na minha cara e tomei um tempo pra me dedicar na criação do meu blog. **Em jekyll**.
 
 Apesar de não ter criado quase nada, deixei tudo pronto pra quando vier algo na caixola vou postar aqui. 
 
