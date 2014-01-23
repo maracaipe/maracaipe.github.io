@@ -38,4 +38,4 @@ Os times são a maneira mais fácil de limitar o acesso das pessoas aos reposit�
 
 Lembre-se que times não são somente para a administração de pessoas. É também um meio de facilitar a interação e conversação com [menções em time](https://github.com/blog/1121-introducing-team-mentions).
 
-###### Este post é somente uma tradução e adaptação do [post original](https://github.com/blog/1763-better-organizations).
+###### Este post é somente uma tradução e adaptação do [post original <i class="icon-external-link"></i>](https://github.com/blog/1763-better-organizations).
