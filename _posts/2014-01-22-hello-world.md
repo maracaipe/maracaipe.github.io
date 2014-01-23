@@ -5,7 +5,7 @@ description: "Como tomei vergonha na cara e transformei meu blog num blog."
 category: articles
 tags: [hello world]
 image:
-  feature: hello-world.jpg
+  feature: /images/hello-world.jpg
   credit: Mbugua Mbarathi
   creditlink: http://mbuguambarathi.wordpress.com/
 comments: true
