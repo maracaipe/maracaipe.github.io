@@ -73,4 +73,6 @@ Quer usar aquela cor mas não lembra o código dela? É só baixar esse plugin e
 
 ---
 
-Bom, esses são os plugins que eu mais uso. Se algum dia começar a usar algum outro, compartilho com vocês, até a próxima!
+Bom, esses são os plugins que eu mais uso. Se algum dia começar a usar algum outro, compartilho com vocês.
+
+Se você é brother, é claro que você vai me ajudar [compartilhando no Facebook](https://www.facebook.com/sharer/sharer.php?u=http://www.carvalhoweb.com/articles/melhores-plugins-sublime-text/) ou [tweetando](https://twitter.com/intent/tweet?text=http://www.carvalhoweb.com/articles/melhores-plugins-sublime-text/) esse post. Até a próxima!
