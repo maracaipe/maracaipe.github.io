@@ -32,36 +32,38 @@
           <span><a href="{{ site.url }}{{ page.url }}" rel="bookmark" title="{{ page.title }}"><i class="icon-link"></i> Permalink</a></span>
           {% if page.share %}
           <span class="social-share-facebook">
-            <a href="https://www.facebook.com/sharer/sharer.php?u={{ site.url }}{{ page.url }}" title="Compartilhe no Facebook" itemprop="Facebook"><i class="icon-facebook-sign"></i> Compartilhar</a></span>
-            <span class="social-share-twitter">
-              <a href="https://twitter.com/intent/tweet?text={{ site.url }}{{ page.url }}" title="Compartilhe no Twitter" itemprop="Twitter"><i class="icon-twitter-sign"></i> Tweetar</a></span>
-              <span class="social-share-googleplus">
-                <a href="https://plus.google.com/share?url={{ site.url }}{{ page.url }}" title="Compartilhe no Google Plus" itemprop="GooglePlus"><i class="icon-google-plus-sign"></i> +1</a></span>
-                <!-- /.social-share -->{% endif %}
-              </footer>
-              <div class="entry-content">
-                {{ content }}
-                {% if site.disqus_shortname and page.comments %}<div id="disqus_thread"></div><!-- /#disqus_thread -->{% endif %}
-              </div><!-- /.entry-content -->
-            </div><!-- /.entry-wrapper -->
-            <nav class="pagination" role="navigation">
-              {% if page.previous %}
-              <a href="{{ site.url }}{{ page.previous.url }}" class="btn" title="{{ page.previous.title }}">Artigo anterior</a>
-              {% endif %}
-              {% if page.next %}
-              <a href="{{ site.url }}{{ page.next.url }}" class="btn" title="{{ page.next.title }}">Próximo artigo</a>
-              {% endif %}
-            </nav><!-- /.pagination -->
-          </article>
-        </div><!-- /#main -->
-
-        <div class="footer-wrapper">
-          <footer role="contentinfo">
-            {% include footer.html %}
+            <div class="fb-like" data-width="125" data-layout="button_count" data-href="{{ site.url }}{{ page.url }}" data-action="like" data-show-faces="false" data-share="true"></div>
+          </span>
+          <span class="social-share-twitter">
+          <a href="https://twitter.com/share" class="twitter-share-button" data-related="carv4lhog" data-url="{{ site.url }}{{ page.url }}" data-lang="pt-BR" data-count="horizontal">Tweet</a>
+          </span>
+          <span class="social-share-googleplus">
+            <a href="https://plus.google.com/share?url={{ site.url }}{{ page.url }}" title="Compartilhe no Google Plus" itemprop="GooglePlus"><i class="icon-google-plus-sign"></i> +1</a></span>
+            <!-- /.social-share -->{% endif %}
           </footer>
-        </div><!-- /.footer-wrapper -->
+          <div class="entry-content">
+            {{ content }}
+            {% if site.disqus_shortname and page.comments %}<div id="disqus_thread"></div><!-- /#disqus_thread -->{% endif %}
+          </div><!-- /.entry-content -->
+        </div><!-- /.entry-wrapper -->
+        <nav class="pagination" role="navigation">
+          {% if page.previous %}
+          <a href="{{ site.url }}{{ page.previous.url }}" class="btn" title="{{ page.previous.title }}">Artigo anterior</a>
+          {% endif %}
+          {% if page.next %}
+          <a href="{{ site.url }}{{ page.next.url }}" class="btn" title="{{ page.next.title }}">Próximo artigo</a>
+          {% endif %}
+        </nav><!-- /.pagination -->
+      </article>
+    </div><!-- /#main -->
 
-        {% include scripts.html %}	        
+    <div class="footer-wrapper">
+      <footer role="contentinfo">
+        {% include footer.html %}
+      </footer>
+    </div><!-- /.footer-wrapper -->
 
-      </body>
-      </html>
+    {% include scripts.html %}	        
+
+  </body>
+  </html>
