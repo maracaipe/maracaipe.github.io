@@ -54,7 +54,7 @@ Depois:
 
 Criou um snippet e que publicá-lo publicamente ou privadamente bem rápido no Gist? Este plugin é a solução para você.
 
-## [Markdown Preview]
+## Markdown Preview
 
 ![Demonstação do plugin Gist 1](/images/sublime-best-plugins-gif/markdown-demo1.gif)
 
@@ -62,6 +62,14 @@ Depois de gerado, o plugin te leva ao browser:
 ![Demonstação do plugin Gist 2](/images/sublime-best-plugins-gif/markdown-demo2.gif)
 
 Escreveu aquele arquivo .md no sublime e não quer esperar o commit no GitHub pra ver o resultado? Esse aquivo gera o HTML do Markdown que você escreveu ou até, mostra uma visualização como se estivesse no Github!
+
+## [ColorPicker](http://weslly.github.io/ColorPicker/)
+
+![Demonstação do plugin ColorPicker](/images/sublime-best-plugins-gif/colorpicker-demo.gif)
+
+Quer usar aquela cor mas não lembra o código dela? É só baixar esse plugin e pronto!
+
+###### Obrigado ao leitor **Wemerson Santos** por me lembrar desse útil plugin!
 
 ---
 
