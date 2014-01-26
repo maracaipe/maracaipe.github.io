@@ -1,4 +1,4 @@
-# Blog [carvalhoweb.com](http://carvalhoweb.com) [![Dependency Status](https://gemnasium.com/maracaipe/maracaipe.github.io.png)](https://gemnasium.com/maracaipe/maracaipe.github.io)
+# Blog [carvalhoweb.com](http://carvalhoweb.com) [![Build Status](https://travis-ci.org/maracaipe/maracaipe.github.io.png?branch=master)](https://travis-ci.org/maracaipe/maracaipe.github.io) [![Dependency Status](https://gemnasium.com/maracaipe/maracaipe.github.io.png)](https://gemnasium.com/maracaipe/maracaipe.github.io) 
 
 Então, este é meu blog.
  
