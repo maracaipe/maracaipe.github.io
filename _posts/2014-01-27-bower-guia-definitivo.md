@@ -30,24 +30,23 @@ Antes de instalar as dependências do seu projeto, você precisa primeiramente l
 
 Você pode iniciar um arquivo `bower.json` através do comando `bower init`, que pedirá que você especifique algumas opções. Após a criação bem sucedida desse arquivo, ele ficou assim:
 
-{% prism javascript %}
-{
-  "name": "guia-bower",
-  "version": "0.0.1",
-  "authors": [
-    "Gabriel Carvalho <maracaipe1098@gmail.com>"
-  ],
-  "description": "O guia definitivo para o Bower",
-  "license": "MIT",
-  "homepage": "http://www.carvalhoweb.com",
-  "private": true,
-  "ignore": [
-    "**/.*",
-    "node_modules",
-    "bower_components"
-  ]
-}
-{% endprism %}
+
+        {
+          "name": "guia-bower",
+          "version": "0.0.1",
+          "authors": [
+            "Gabriel Carvalho <maracaipe1098@gmail.com>"
+          ],
+          "description": "O guia definitivo para o Bower",
+          "license": "MIT",
+          "homepage": "http://www.carvalhoweb.com",
+          "private": true,
+          "ignore": [
+            "**/.*",
+            "node_modules",
+            "bower_components"
+          ]
+        }
 
 Pronto! Você já tem um arquivo `bower.json` válido e já podemos instalar as dependências.
 
@@ -90,28 +89,27 @@ Por padrão, todos os pacotes são instalados no diretório `bower_components` e
 Nesta seção, você vai adicionar as dependências ao seu arquivo `bower.json` e com isso, cada vez que você executa `bower install` para instalar os pacotes na primeira vez, ou `bower update` para atualizar os já existentes. O seguinte arquivo `bower.json` mostra como deve ser listado as dependências, e toma como exemplo os pacotes **Bootstrap** e **jQuery** (ambos na última versão).
 
 
-{% prism javascript %}
-{
-  "name": "guia-bower",
-  "version": "0.0.1",
-  "authors": [
-    "Gabriel Carvalho <maracaipe1098@gmail.com>"
-  ],
-  "description": "O guia definitivo para o Bower",
-  "license": "MIT",
-  "homepage": "http://www.carvalhoweb.com",
-  "private": true,
-  "ignore": [
-    "**/.*",
-    "node_modules",
-    "bower_components"
-  ],
-  "dependencies": {
-    "jquery" : "latest",
-    "bootstrap" : "latest"
-  }
-}
-{% endprism %}
+
+        {
+          "name": "guia-bower",
+          "version": "0.0.1",
+          "authors": [
+            "Gabriel Carvalho <maracaipe1098@gmail.com>"
+          ],
+          "description": "O guia definitivo para o Bower",
+          "license": "MIT",
+          "homepage": "http://www.carvalhoweb.com",
+          "private": true,
+          "ignore": [
+            "**/.*",
+            "node_modules",
+            "bower_components"
+          ],
+          "dependencies": {
+            "jquery" : "latest",
+            "bootstrap" : "latest"
+          }
+        }
 
 ### Desinstalando pacotes e excluindo dependências
 
@@ -125,11 +123,10 @@ Para ver quais pacotes estão instalados no seu projeto, simplesmente execute `b
 
 Se você não quiser que o [Bower] coloque tudo (como padrão) no diretório `bower_components`, você pode instalar em outro lugar, adicionando um arquivo chamado `.bowerrc` na raiz do projeto. Para mudar o diretório para `assets/components` nosso arquivo vai ficar assim:
 
-{% prism javascript %}
-{
-  "directory" : "assets/components"
-}
-{% endprism %}
+
+        {
+          "directory" : "assets/components"
+        }
 
 Depois é só executar `bower install` novamente e deletar o diretório anterior.
 
@@ -137,9 +134,9 @@ Depois é só executar `bower install` novamente e deletar o diretório anterior
 
 Essa parte provavelmente você já sabe, mas mesmo assim vou deixá-la aqui. Supondo que você tem somente o jQuery como pacote e vai utilizá-lo como nos exemplos anteriores, você vai usar na sua página assim:
 
-{% prism markup %}
-<script src="/assets/components/jquery/jquery.min.js"></script>
-{% endprism %}
+
+        <script src="/assets/components/jquery/jquery.min.js"></script>
+
 
 -------
 
